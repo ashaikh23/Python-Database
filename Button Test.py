@@ -1,3 +1,6 @@
+#Copyright ® 2018 Aymaan Shaikh
+#Please Contact Before Using Code
+
 from tkinter import *
 tk = Tk()
 btn = Button(tk, text="click me")
