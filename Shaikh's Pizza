@@ -1,3 +1,6 @@
+#Copyright ® 2018 Aymaan Shaikh
+#Please Contact Before Using Code
+
 # AtlantaPizza.py - a simple pizza cost calculator\
 print("Shaikh's Pizza.py - a simple pizza cost calculator")
 # Ask the person how many pizzas they want, get the number with eval()
