@@ -5,3 +5,5 @@ If you are interested in having me work for you or to design something. Leave a 
 
 IMPORTANT
 Please Contact Me If You Are Using This Work In Any Way Or Form
+
+The Memory Puzzle was created by AL Sweigart
