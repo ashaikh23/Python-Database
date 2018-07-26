@@ -1,9 +1,15 @@
 # Python-Database
 Python
-This is a cloud backup of projects that I have created
-If you are interested in having me work for you or to design something. Leave a comment and I will get back shortly.
+This is a repository of projects that I have created over the course of time.
 
-IMPORTANT
-Please Contact Me If You Are Using This Work In Any Way Or Form
+If you find my work to be interguing please feel free to contact me about any thing.
 
-The Memory Puzzle was created by AL Sweigart
+Credits
+
+Files
+1)The Memory Puzzle was created by AL Sweigart
+2)The rest are from my work
+
+Software
+1) I use a wide arrangement of IDLE's to set up my code such as PyCharm
+
