@@ -1,0 +1,26 @@
+#Aymaan Shaikh
+#@2018
+#Introduction
+print("Hello my name is AI, I am a meal tax and gratuity calculator!")
+print(" ")
+
+#User Input
+user_name  = input("What is your name?")
+meal = float(input("How much was the total price of your meal, " +  user_name + "?" ))
+print(" ")
+gratuity = float(input("How much gratuity would you like to give, " +  user_name + "?" ))
+print(" ")
+sales_tax = float(input("How much sales tax would you like to apply, "  +  user_name + "?" ))
+print(" ")
+
+#Formula 1
+fake_total_cost = meal + (meal * sales_tax) + (meal * gratuity)
+
+#Final User Input
+deduction = float(input("Do you have any price deductions {Do not put a neagtive sign}, " +  user_name + "?" ))
+
+#Formula 2
+total_costz = fake_total_cost - deduction
+
+#Finished AI Output
+print("The total cost of your meal is: $ %.2f" % total_costz )
