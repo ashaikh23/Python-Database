@@ -1,0 +1,36 @@
+#Chemsitry Weight Average Calualtor
+
+
+
+#
+homeworkperc = 0.0
+labperc = 0.0
+participationperc = 0.0
+testperc = 0.0
+##
+homeworkavg = 0.0
+labavg = 0.0
+participationavg = 0.0
+testavg = 0.0
+#
+
+
+
+
+#
+print("Welcome to Aymaan's software")
+
+
+
+#
+homeworkperc = int(input("Enter the percentage[In Decimals] of your grade that homework is worth: "))
+labperc = int(input("Enter the percentage[In Decimals] of your grade that Lab's is worth: "))
+participationperc = int(input("Enter the percentage[In Decimals] of your grade that Participation is worth: "))
+testperc = int(input("Enter the percentage[In Decimals] of your grade that test's is worth: "))
+#
+print("Great, now that we know what percent to do the math with we are asking you your grades.")
+#
+homeworkavg = int(input("What is your homework average: "))
+#labavg = int(input("What is your lab average: "))
+#participationavg = int(input("What is your participation average: "))
+#testavg = int(input("Enter your test average: "))
