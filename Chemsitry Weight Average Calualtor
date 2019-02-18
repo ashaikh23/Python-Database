@@ -1,5 +1,4 @@
-#Chemsitry Weight Average Calualtor
-
+# Chemsitry Weight Average Calualtor
 
 
 #
@@ -15,12 +14,8 @@ testavg = 0.0
 #
 
 
-
-
 #
-print("Welcome to Aymaan's software")
-
-
+print("Welcome to Class Grade approximater")
 
 #
 homeworkperc = int(input("Enter the percentage[In Decimals] of your grade that homework is worth: "))
@@ -31,6 +26,16 @@ testperc = int(input("Enter the percentage[In Decimals] of your grade that test'
 print("Great, now that we know what percent to do the math with we are asking you your grades.")
 #
 homeworkavg = int(input("What is your homework average: "))
-#labavg = int(input("What is your lab average: "))
-#participationavg = int(input("What is your participation average: "))
-#testavg = int(input("Enter your test average: "))
+labavg = int(input("What is your lab average: "))
+participationavg = int(input("What is your participation average: "))
+testavg = int(input("Enter your test average: "))
+
+#
+homeworktotal = homeworkperc*homeworkavg
+labtotal = labavg*labperc
+participationtotal = participationavg*participationperc
+testtotal= testavg*testperc
+classavg = homeworktotal+labtotal+participationtotal+testtotal
+
+print("Your estimated projected average in this class is " + classavg + "%.")
+
