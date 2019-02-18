@@ -15,7 +15,7 @@ testavg = 0.0
 
 
 #
-print("Welcome to Class Grade approximater")
+print("Welcome to Aymaan's software")
 
 #
 homeworkperc = int(input("Enter the percentage[In Decimals] of your grade that homework is worth: "))
@@ -37,5 +37,5 @@ participationtotal = participationavg*participationperc
 testtotal= testavg*testperc
 classavg = homeworktotal+labtotal+participationtotal+testtotal
 
-print("Your estimated projected average in this class is " + classavg + "%.")
+print("Your estimated projected average in this class is " + str(classavg)+ "%.")
 
