@@ -59,37 +59,3 @@ namesa = ["Adam Ali","Alex","Mariah","Martine","Columbus"]
 for namea in namesa:
   print (name)
 print("Next Project Running....00004")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
