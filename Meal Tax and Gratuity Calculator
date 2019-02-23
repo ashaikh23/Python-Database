@@ -1,11 +1,34 @@
-#Copyright ® 2018 Aymaan Shaikh
-#Please Contact Before Using Code
+
+#Aymaan Shaikh
+#@2019
+#Introduction
+import sys
+#Reboot
 
 print("Hello my name is AI, I am a meal tax and gratuity calculator!")
 print(" ")
 
 #User Input
 user_name  = input("What is your name?")
+
+print("It is very nice to meat you" + user_name)
+
+def askYesNoQuestion(question):
+  YesNoAnswer = input(question).upper()
+  if YesNoAnswer == "YES" or YesNoAnswer == "NO":
+     return YesNoAnswer  
+  else:
+     return askYesNoQuestion(question)
+ 
+answer = askYesNoQuestion("Would you like to use this calculator? (Yes or No)")
+if answer == "YES":
+  print("Okay, then I will give you a series of questons in which you can answer with numbers.")
+elif answer == "NO":
+    print("Oh well, sorry to dissapoint" + user_name)
+    print("I guess I will see you next time!")
+    sys.exit()
+
+
 meal = float(input("How much was the total price of your meal, " +  user_name + "?" ))
 print(" ")
 gratuity = float(input("How much gratuity would you like to give, " +  user_name + "?" ))
