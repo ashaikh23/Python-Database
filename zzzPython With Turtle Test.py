@@ -1,5 +1,4 @@
-#Copyright ® 2018 Aymaan Shaikh
-#Please Contact Before Using Code
+#Unknown
 
 import turtle
 import turtle               # allows us to use the turtles library
