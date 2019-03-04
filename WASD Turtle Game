@@ -1,0 +1,62 @@
+#Aymaan Shaikh 2019
+import turtle
+#Window
+#wn = turtle.Screen()
+#wn.bgcolor("white")
+#wn.title("WASD game")
+easy = turtle.Turtle()
+easy.color("light green")
+#This is the fastest speed turtle can go
+easy.speed(0)
+easy.penup()
+easy.setposition(-100,-100)
+easy.pendown()
+for sides in range(4):
+  easy.forward(600)
+  easy.left(90)
+  
+easy.hideturtle()
+
+ninja = turtle.Turtle()
+ninja.color("black")
+ninja.penup()
+ninja.speed(0)
+ninja.setposition(0, -250)
+ninja.left(90)
+
+#WASD controls
+
+def goleft():
+  x = player.xcord()
+  x = x - 5
+  if x < -290:
+    x = 290
+  player.setx(x)
+
+def goright():
+  x = player.xcord()
+  x = x + 5
+  if x > 290:
+    x = 290
+  player.setx(x)
+
+def goup():
+  y = player.ycord()
+  y = y + 5
+  if y >290:
+    y = 290
+  player.sety(y)
+
+def godown():
+  y= player.ycord()
+  y = y - 5
+  if y < -290:
+    y = -290
+  player.sety(y)
+
+turtle.listen()
+turtle.onkey(goleft, "Left")
+turtle.onkey(goright, "Right")
+turtle.onkey(goup, "Up")
+turtle.onkey(godown, "Down")
+
