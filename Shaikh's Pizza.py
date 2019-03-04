@@ -1,5 +1,5 @@
-#Copyright ® 2018 Aymaan Shaikh
-#Please Contact Before Using Code
+#2018 Aymaan Shaikh
+#
 
 # AtlantaPizza.py - a simple pizza cost calculator\
 print("Shaikh's Pizza.py - a simple pizza cost calculator")
