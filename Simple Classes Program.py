@@ -1,5 +1,5 @@
-#Copyright ® 2018 Aymaan Shaikh
-#Please Contact Before Using Code
+#2018 Aymaan Shaikh
+#
 class One:
     def __init__(self, name, color, weight):
         self.name = name
