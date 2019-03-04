@@ -1,5 +1,5 @@
-#Copyright ® 2018 Aymaan Shaikh
-#Please Contact Before Using Code
+#2018 Aymaan Shaikh
+#
 
 #Variables and Data Types review
 #1.create a varible called inVal and assign it an integer value
