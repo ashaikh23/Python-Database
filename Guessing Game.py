@@ -1,5 +1,4 @@
-#Copyright ® 2018 Aymaan Shaikh
-#Please Contact Before Using Code
+
 
 #!/usr/bin/env python3
 
