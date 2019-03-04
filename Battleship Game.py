@@ -1,5 +1,4 @@
-#Copyright ® 2018 Aymaan Shaikh
-#Please Contact Before Using Code
+
 
 from random import randint
 
