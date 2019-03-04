@@ -1,5 +1,5 @@
-#Copyright ® 2018 Aymaan Shaikh
-#Please Contact Before Using Code
+#2018 Aymaan Shaikh
+#
 #Exercise 5: More Variables and Printing
 
 my_name = 'Zed A. Shaw'
